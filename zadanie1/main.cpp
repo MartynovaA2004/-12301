@@ -40,7 +40,8 @@ public:
     }
 
     // Метод для удаления последнего элемента
-    void deleteLast() {
+    void deleteLast() 
+    {
         if (!head) {
             return;
         }
